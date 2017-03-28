@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  RHPlacePick
+//
+//  Created by 郭人豪 on 2017/3/28.
+//  Copyright © 2017年 Abner_G. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/****** 第三方库 ******/
+#import <Masonry.h>
+
+/****** 宏 ******/
+//宽高
+#define Screen_Width       [UIScreen mainScreen].bounds.size.width
+#define Screen_Height      [UIScreen mainScreen].bounds.size.height
+
+#define Color_RGB(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0  alpha:1.0]
+#define Color_RGB_Alpha(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0  alpha:(a)]
+#define Color_Line         Color_RGB(230, 230, 230)
+
+
+#endif /* PrefixHeader_pch */
